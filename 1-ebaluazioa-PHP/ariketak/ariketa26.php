@@ -27,6 +27,7 @@ while ($saiakera_kopurua < 5) {
 
     if ($asmatutako_zenbakia === $zenbaki_sekretua) {
         echo "Zuzen asmatu duzu, zenbakia $zenbaki_sekretua zen!<br>";
+        echo "Saiakera kopurua: $saiakera_kopurua<br>";
         $asmatu = true;
         break;
     }

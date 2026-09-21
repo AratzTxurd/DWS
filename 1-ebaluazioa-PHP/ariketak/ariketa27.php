@@ -21,7 +21,7 @@ sort($desio_zerrenda);
 	<h1>Bidaia-desioen zerrenda</h1>
 	<ul>
 		<?php foreach ($desio_zerrenda as $herrialdea): ?>
-			<li><?= htmlspecialchars($herrialdea, ENT_QUOTES, 'UTF-8') ?></li>
+			<li><?= $herrialdea ?></li>
 		<?php endforeach; ?>
 	</ul>
 </body>
